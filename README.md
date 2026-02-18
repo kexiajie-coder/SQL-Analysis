@@ -40,7 +40,6 @@ This was a collaborative group project. My specific contributions included:
 ## 📂 Files Included
 * `TuneWorks_Strategy_Deck.pdf`: Executive presentation of findings and recommendations.
 * `SQL_Analysis_Process.pdf`: Detailed documentation of SQL queries and data checks.
-* `analysis_queries.sql`: Raw SQL scripts used for the project.
 
 ## 📄 License
 This project is for educational purposes.
