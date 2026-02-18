@@ -1,38 +1,34 @@
-# TuneWorks Growth Strategy: End-to-End SQL Analysis 🎵
+# Screen Time & Mental Health: Statistical Analysis 📱🧠
 
-> **Role:** Data Analyst | **Team:** 6 Members
-> **Tech Stack:** SQL (PostgreSQL), Advanced Excel, GenAI (Gemini)
+> **Role:** Data Analyst | **Team:** A4ever (7 Members)
+> **Tools:** Python (Pandas, Statsmodels), Hypothesis Testing, Regression Analysis
 
 ## 📖 Project Overview
-Designed and executed an **end-to-end data analysis solution** for TuneWorks, an entertainment booking agency facing revenue stagnation. Our team analyzed the complete data lifecycle—from cleaning raw booking logs to delivering strategic revenue optimization plans.
+In an era of hyper-connectivity, our team conducted a rigorous statistical study to quantify the relationship between **Average Daily Screen Time** and **Mental Health Scores** (Anxiety, Depression, Stress indicators).
+Using a dataset of 2,000+ individuals, we moved beyond anecdotal evidence to determine if digital dependency has a statistically significant negative impact on well-being.
 
-## 🎯 Key Objectives
-* **Data Quality Audit:** Conducted rigorous data cleaning to ensure integrity across customer, agent, and engagement tables.
-* **Revenue Optimization:** Identified high-value "Band" bookings vs. "Solo" acts to restructure commission incentives.
-* **Human vs. AI Benchmarking:** Pitched human-derived insights against AI (Gemini) analysis to evaluate the depth and accuracy of automated analytics.
+## ⚠️ The Research Question
+> *Does increased screen time cause a statistically significant decline in mental health scores?*
 
-## 🛠️ Technical Approach (End-to-End)
-1.  **Data Ingestion & Cleaning:** * Utilized Regex in SQL to identify inconsistent zip codes, phone numbers, and email formats.
-    * Verified referential integrity across 8+ relational tables.
-2.  **Analysis & Modeling:** * Employed complex queries (`JOINs`, `CTEs`, `Window Functions`) to calculate agent revenue performance.
-    * Performed hypothesis testing on customer preferences vs. actual purchasing behavior.
-3.  **Strategy Formulation:** * Synthesized quantitative findings into a coherent business strategy for the executive board.
+## 🔬 Methodology
+* **Data Cleaning:** Handled missing values and outliers in demographic data (Age, Location, Gender).
+* **Hypothesis Testing:** Conducted **2-sided T-tests** to compare mental health scores across different user groups (e.g., Wellness App Users vs. Non-Users).
+* **Regression Analysis:** Built a linear regression model to isolate the coefficient of screen time on mental health, controlling for variables like age and location.
 
-## 📊 Key Findings
-* **The "Jazz Paradox":** Customers self-reported high interest in Jazz, but actual booking data showed negligible revenue from this genre. *Insight: Strategy based on survey data alone is misleading.*
-* **Resource Misallocation:** Top-performing agents (generating ~$15k+ revenue) were under-supported, while low-margin agents consumed disproportionate resources.
-* **AI Assessment:** While AI provided quick summaries, our manual SQL analysis was required to identify specific, actionable anomalies in the commission structure that AI missed.
+## 📊 Key Findings (The "0.35" Drop)
+Our analysis revealed a clear, quantifiable negative correlation:
+1.  **The -0.35 Impact:** For every **1 additional hour** of daily screen time, an individual's Mental Health Score decreases by **0.35 points** ($p$-value: 0.0245, statistically significant).
+2.  **Demographic Nuances:**
+    * **Urban vs. Rural:** The negative impact is more pronounced in urban populations.
+    * **Age Groups:** Teenagers showed a higher sensitivity to screen time compared to older adults.
+3.  **Wellness Apps:** Paradoxically, users of "Wellness Apps" did not show significantly higher mental health scores, suggesting that app usage alone is not a cure.
 
-## 👥 Team Contribution
-This was a collaborative group project. My specific contributions included:
-* **Univariate Analysis:** Led the breakdown of single-variable trends.
-* **Strategy Integration:** Synthesized the final executive presentation.
-* **Code Review:** Collaborated on SQL logic validation.
+## 💡 Business & Social Implications
+* **Platform Responsibility:** Tech companies (like TikTok/Instagram) have a data-backed directive to implement "Digital Wellbeing" features (e.g., mandatory breaks).
+* **Policy Making:** The findings support initiatives for "Screen-Free Zones" in educational environments.
 
 ## 📂 Files Included
-* `TuneWorks_Strategy_Deck.pdf`: Executive presentation of findings and recommendations.
-* `SQL_Analysis_Process.pdf`: Detailed documentation of SQL queries and data checks.
-* `analysis_queries.sql`: Raw SQL scripts used for the project.
+* `Screen_Time_Mental_Health_Analysis.pdf`: Final presentation deck covering methodology, visualizations, and conclusions.
 
 ## 📄 License
 This project is for educational purposes.
